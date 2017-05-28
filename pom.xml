@@ -6,7 +6,7 @@
 
     <groupId>me.fromgate.ravariables</groupId>
     <artifactId>RaVariables</artifactId>
-    <version>0.0.1</version>
+    <version>1.0-SNAPSHOT</version>
 
     <repositories>
         <repository>

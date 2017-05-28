@@ -1,2 +1,2 @@
 # RaVariables
-Expasnison for PlaceholderAPI, that shares ReActions' variables
+Expansion for PlaceholderAPI, that shares ReActions' variables

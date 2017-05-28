@@ -1,0 +1,7 @@
+.gitignore
+.idea/
+META-INF/
+RaVariables.iml
+src/main/resources/
+src/test/
+target/

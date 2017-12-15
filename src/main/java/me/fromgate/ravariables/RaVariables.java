@@ -32,10 +32,11 @@ import java.util.regex.Pattern;
 
 public class RaVariables extends PlaceholderExpansion {
 
+    private final static String VERSION = "0.0.2";
+    private final static String PLUGIN_NAME = "ReActions";
+    private final static String AUTHOR = "fromgate";
     private final static Pattern VARP = Pattern.compile("(?i)varp?:\\S+");
-    private final static String EMPTY = new String();
-
-
+    private final static String EMPTY = "";
 
     public String getIdentifier() {
         return "reactions";
@@ -43,19 +44,19 @@ public class RaVariables extends PlaceholderExpansion {
 
     @Override
     public boolean canRegister() {
-        return Bukkit.getPluginManager().getPlugin("ReActions") != null;
+        return Bukkit.getPluginManager().getPlugin(PLUGIN_NAME) != null;
     }
 
     public String getPlugin() {
-        return "ReActions";
+        return PLUGIN_NAME;
     }
 
     public String getAuthor() {
-        return "fromgate";
+        return AUTHOR;
     }
 
     public String getVersion() {
-        return "0.0.1";
+        return VERSION;
     }
 
     @Override
